@@ -1,13 +1,28 @@
-*{
-box-sizing:content-box;
+
+* {
+	box-sizing: border-box;
 }
 
-.box{
-width:400px;
-height:400px;
-border: solid 10px rgba(0,0,0,0);
-margin: 10% auto;
-border: dotted 5px rgba(0,0,0,0.9);
-padding: 70px;
+.box {
+	width: 400px;
+	height: 400px;
+	margin: 10% auto;
+	border: dotted 5px rgba(139, 211, 245, 0.884);
+	padding: 70px;
+	
+}
 
+.container{
+	justify-content: center;
+	display: flex;
+}
+
+.produtos img {
+width: 250px;
+height: 150px;
+border-radius: 10px;
+}
+
+.produtos img:hover {
+	transform: scale(1.10);
 }
